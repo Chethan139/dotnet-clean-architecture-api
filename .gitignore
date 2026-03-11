@@ -1,0 +1,86 @@
+## .NET / Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+.vs/
+_UpgradeReport_Files/
+Backup*/
+TestResult.xml
+*.VisualState.xml
+TestResults/
+[Dd]ebugPublic/
+[Rr]eleasePublic/
+dlldata.c
+
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+## .NET Build artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+## ASP.NET
+AppData/
+
+## Node (if any frontend tooling is added)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+## OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Secrets
+**/appsettings.Production.json
+*.pfx
+*.p12
+.env
+.env.*
+!.env.example
+
+## Coverage
+coverage/
+*.opencover.xml
+*.cobertura.xml
+lcov.info
+
+## Test results
+TestResults/
+test-results/
